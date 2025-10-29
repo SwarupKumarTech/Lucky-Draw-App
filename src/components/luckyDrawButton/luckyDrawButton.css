@@ -1,0 +1,21 @@
+.luckydrawBtn {
+    background-color: #FFD166;
+    color: black;
+    padding : 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.luckydrawBtn:hover {
+    background-color: #ffb300;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+.luckyDrawContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: -8px;
+}

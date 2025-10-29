@@ -1,6 +1,62 @@
-# Getting Started with Create React App
+# Lucky Draw React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun and interactive React application that randomly selects winners from a list of members with a celebratory animation and sound effect. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- 🎯 Random member selection from a predefined list
+- 🎊 Confetti animation for winners
+- 🔊 Victory sound effect
+- 🌍 Display of winner's name and city
+- ⏳ Loading animation during selection
+- 📱 Responsive design
+
+## Technologies Used
+
+- React 19.2.0
+- react-confetti 6.4.0
+- Web Audio API for sound effects
+- CSS for styling and animations
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── App/
+│   │   ├── App.css
+│   │   └── App.js
+│   ├── header/
+│   │   ├── header.css
+│   │   └── header.js
+│   ├── luckyDrawButton/
+│   │   ├── luckyDrawButton.css
+│   │   └── luckyDrawButton.js
+│   ├── Member/
+│   │   ├── Member.css
+│   │   └── Member.js
+│   ├── memberList/
+│   │   ├── MemberList.css
+│   │   └── MemberList.js
+│   └── section/
+│       ├── section.css
+│       └── section.js
+├── App.test.js
+├── index.css
+├── index.js
+├── reportWebVitals.js
+└── setupTests.js
+```
+
+## How It Works
+
+1. Open the application in your web browser
+2. Click the "Lucky Draw" button to start the selection process
+3. Wait for 5 seconds while the selection is being made
+4. When a winner is chosen, you'll see:
+	- The winner's name and city
+	- A confetti animation
+	- A victory sound effect
 
 ## Available Scripts
 
